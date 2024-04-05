@@ -20,7 +20,7 @@ const Home2 = () => {
                     alert(`Unsupported file type: ${file.type}. Please upload PDF or Word documents.`);
                 }
             }
-            
+
             const response = await fetch('YOUR_UPLOAD_URL', {
                 method: 'POST',
                 body: formData,
@@ -38,7 +38,7 @@ const Home2 = () => {
             setError(`Error uploading files: ${error.message}`);
         }
     };
-    
+
     return (
         <div>
             <div className='navbar'>
@@ -49,7 +49,7 @@ const Home2 = () => {
                 <div>Upload your files here</div>
             </div>
             <div className='content2'>
-                <div>We respect your document privacy</div>
+                <div></div>
             </div>
             <div className='btn_div'>
                 {!responseIn && (
@@ -68,7 +68,7 @@ const Home2 = () => {
                 </>)}
             </div>
             {responseIn && error && <div className="error-message">File Upload failed</div>}
-            {responseIn  && !error &&
+            {responseIn && !error && 
             <>
             <div className="error-message">File Upload Successful</div>
             <div className='uploaded-files'>

@@ -3,14 +3,17 @@ body{
 }
 .header{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
+    color: rgb(219, 219, 219);
     font-weight: normal;
-    font-size: 64px;
+    font-size: 52px;
     display: flex;
+    padding: 10px;
 }
+
 .header2nd{
     font-weight:bold;
 }
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -21,12 +24,12 @@ body{
 .content1{
     margin-top: 20vh;
     color: #000;
-text-align: center;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-size: 48px;
-font-style: normal;
-font-weight: 350;
-line-height: normal;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
 }
 .content2{
     margin-top: 10vh;
@@ -39,11 +42,12 @@ line-height: normal;
     line-height: normal;
 }
 .btn_div{
-    margin-top: 20vh;
+    margin-top: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .btn{
     font-size: 24px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -54,4 +58,34 @@ line-height: normal;
     border-radius: 11px;
     border: none;
     background: linear-gradient(90deg, #558AFA 5.81%, #4D5BE0 108.96%);
+}
+
+.custom-file-input {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.custom-file-input:hover {
+    background-color: #0056b3;
+}
+
+.custom-file-input:active {
+    background-color: #0056b3;
+}
+.error-message{
+    color: red;
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+.uploaded-files{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-top: 10px;   
 }
