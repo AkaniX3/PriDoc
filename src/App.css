@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.upload-button {
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 24px; /* Rounded edges */
+  padding: 12px 24px; /* Padding for larger size */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.upload-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.file-input {
+  display: none; /* Hide the default file input */
+}
+
+.file-input-label {
+  display: inline-block;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 24px; /* Rounded edges */
+  padding: 12px 24px; /* Padding for larger size */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.file-input-label:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Additional styling for smaller screens */
+@media (max-width: 600px) {
+  .upload-button,
+  .file-input-label {
+    padding: 10px 20px; /* Adjusted padding for smaller screens */
+    font-size: 14px; /* Smaller font size */
+  }
+}
