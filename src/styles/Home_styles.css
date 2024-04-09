@@ -90,3 +90,44 @@ body{
     width:100%;
     margin-top: 10px;   
 }
+
+.uploading-animation{
+ 
+    width: 20%;
+    height: 20%;
+    margin-top: -5%;
+    margin-bottom: -1%;
+
+}
+.file-selected {
+background-color: aquamarine;
+}
+.upload-complete {
+    background-color: aquamarine; /* Change the background color */
+    color: white; /* Change the text color */
+    /* Add any other styling you need */
+}
+
+.uploading-animation-u{
+ 
+    width: 20%;
+    height: 20%;
+    margin-top: 0%;
+    margin-bottom: -1%;
+
+}
+.ua{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ua2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.align{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
